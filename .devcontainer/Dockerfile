@@ -1,3 +1,4 @@
+FROM mcr.microsoft.com/devcontainers/base:jammy
 RUN sudo apt-get update \
 && sudo apt-get install -y ca-certificates curl gnupg \
 && sudo mkdir -p /etc/apt/keyrings \
